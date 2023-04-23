@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react';
-import './Clock.scss'
+
 
 const Clock = () => {
     const PreState={
@@ -35,7 +35,7 @@ const Clock = () => {
     return (
         <div>
             <h2>Hora actual: {user.fecha.toLocaleTimeString()}</h2>
-            <h3> {user.name} {user.apellido}</h3>
+            <h3> {user.nombre} {user.apellido}</h3>
             <h1>Edad: {user.edad}</h1>
         </div>
     );
